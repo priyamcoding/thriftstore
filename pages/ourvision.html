@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+     
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        
+        
+<script type="text/javascript">
+
+        
+var i =0;
+        var images = []; 
+        var time = 3000;
+
+        images[0] = " file:///Users/priyam/Downloads/IMG_8157.JPG" ;
+        images[1]= "file:///Users/priyam/Downloads/IMG_8157.JPG" ;
+        images[2]= "file:///Users/priyam/Downloads/IMG_8157.JPGg";
+
+        function changeimg()
+        {
+            document.slide.src = image[i];
+
+            if(i<images.lenght -1){
+                i++
+            }
+            else
+            {
+                i=0;
+            }
+
+            }
+            setTimeout("changeimg()", time);
+          ;
+
+        window.onload=changeimg;
+    </script>
+
+
+        <img name="slide" width = "400" height="200>"
+
+    </body>
+
+</html>
