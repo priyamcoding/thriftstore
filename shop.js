@@ -1,16 +1,9 @@
- var removeCartItemButtons = document.getElementsByClassName('btn-danger');
-console.log(removeCartItemButtons)
-for(var i=0; i<removeCartItemButtons.length; i++){
-    var button = removeCartItemButtons[i]
-    button.addEventListener('click', function(event) {
-        var buttonClicked = event.target
-        buttonClicked.parentElement.parentElement.remove()
-        updateCartTotal()
-    
-    })
+const onClick = document.querySelector("button");
+/*if(onClick){
+    console.log('clicked');
 }
-function updateCartTotal() {
-    
+*/
+document.querySelector('button').addEventListener('click', purchaseClicked);
+function purchaseClicked() {
+    alert('Thank you for your purchase')
 }
-
-        
