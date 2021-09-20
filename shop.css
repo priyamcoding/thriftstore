@@ -52,19 +52,20 @@ nav{
 	width: 100%;
 }
         
-
-.container {
-    width: 200px;
-    height: 120px;
+.gallery-grid-image-link{
+    
 }
 
-/* Resize images */
-.container img {
-    width: 100%;
-    height: auto;
+.buy-item-image{
+    width: 10%;
+    height: 10%;
 }
 
-.pdt-info{
+.buy-item-info{
     align-content:center;
     color:black;
 }
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
