@@ -55,10 +55,12 @@ nav{
 .cart-row{
     margin: auto;
     padding: auto;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: #49684C ;
     font-family: 'Poppins', sans-serif;
     justify-content: space-around;
-    word-spacing: 200px;
+    word-spacing: 500px;
     
 }
 
@@ -93,7 +95,36 @@ nav{
     text-align: center;
     background-color:#2D4030;
     color: beige;
+    padding-left: 5px;
     font-family: 'Poppins', sans-serif;
 }
 
 
+.shop-item-image{
+width: fit-content;
+height: fit-content;
+}
+
+.shop-item-button{
+    color:#2D4030;
+}
+
+.shop-item-info{
+    color:#F7EDE2;
+    text-align: left;
+    background-color:beige;
+}
+
+.item-info{
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.v-header{
+    color: #F7EDE2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.v-content{
+    color: yellow;
+}
