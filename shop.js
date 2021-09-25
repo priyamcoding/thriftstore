@@ -1,9 +1,16 @@
-const onClick = document.querySelector("button");
-/*if(onClick){
-    console.log('clicked');
-}
-*/
-document.querySelector('button').addEventListener('click', purchaseClicked);
+
+document.querySelector('.btn-purchase').addEventListener('click', cartClicked);
+
+
+
+document.querySelector('.btn-purchase').addEventListener('click', purchaseClicked);
+
+
 function purchaseClicked() {
     alert('Thank you for your purchase')
+}
+
+function cartClicked() 
+{
+    alert('item is in the cart!')
 }

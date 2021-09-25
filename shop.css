@@ -107,7 +107,12 @@ height: fit-content;
 
 .shop-item-button{
     color:#2D4030;
+    background-color: #6B8E6E;
 }
+
+.a1{
+    color:#2D4030;
+    background-color: #6B8E6E;}
 
 .shop-item-info{
     color:#F7EDE2;
