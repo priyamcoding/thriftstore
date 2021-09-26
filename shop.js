@@ -1,11 +1,12 @@
 
 let itemno = 101;
+
 let qtypur = 01; 
 let price = 10; 
 let avail = 20; 
 
-
-
+// localStorage.setItem('qtypur', '01')
+// localStorage.setItem('price', '01')
 
 
 //white shirt
@@ -15,14 +16,9 @@ document.querySelector('.shop-item-button').addEventListener('click', cartClicke
 
 function cartClicked() 
 {
-    //  itemno_pur = itemno; 
-     itempur = qtypur;
-     price = price;
-     avail = avail; 
+    localStorage.setItem('itemno_added', itemno)
+    itemno_pur = itemno; 
     alert('item is in the cart!')
-    console.log(itemno, qtypur, price, avail)
-    pur_arr=[itemno, qtypur, price, avail]
-    console.log(pur_arr)
     p = document.createElement("h2");
     p.innerHTML = "Your item is "+itemno;
     document.body.appendChild(p);
@@ -34,6 +30,13 @@ document.querySelector('.btn-purchase').addEventListener('click', purchaseClicke
 }
 
 function purchaseClicked() {
+    
     alert('Thank you for your purchase')
 }
 
+document.onload()
+function myFunction(){
+    p = document.createElement("h2");
+    p.innerHTML = "Your item is "+localStorage.getItem('itemno_added');
+    document.body.appendChild(p);
+}
