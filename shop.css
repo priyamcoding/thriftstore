@@ -109,6 +109,10 @@ height: fit-content;
     color:#2D4030;
     background-color: #6B8E6E;
 }
+.item-image{
+width: 150px;
+padding: 2px ;
+}
 
 .a1{
     color:#2D4030;
@@ -122,6 +126,7 @@ height: fit-content;
 
 .item-info{
     font-family: 'Raleway', sans-serif;
+    text-align: left;
     
 }
 
