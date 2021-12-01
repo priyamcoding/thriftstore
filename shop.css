@@ -7,13 +7,13 @@
 
 /* front page (index.html) */
 .nav-index-links {
-  margin: 0px;
-  padding: 0px;
+  margin: 1px;
+  padding: 1px;
+  color: white;
   box-sizing: border-box;
+  font-size: medium;
   list-style-type: none;
   display: contents;
-
-  text-decoration: underline;
   justify-content: space-around;
   font-style: bold;
   width: 50%;
@@ -24,33 +24,43 @@ nav {
   display: flex;
   justify-content: space-around;
   min-height: 4vh;
-  color: antiquewhite;
-  text-transform: uppercase;
-  background-color: rgb(207, 216, 206);
+  color: rgb(255, 255, 255);
+  text-transform: lowercase;
+  background-color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-size: 30px;
 }
 
 .logo {
   color: rgba(255, 255, 255, 0.774);
-  text-transform: uppercase;
+  text-transform: lowercase;
+  text-indent: 1ex;
   letter-spacing: 5px;
 }
 
 .nav-links {
   display: contents;
-  color: rgba(255, 255, 255, 0.774);
+  color: rgb(211, 219, 230);
   text-decoration: underline;
+
+  margin: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-right: 1em;
   justify-content: space-around;
-  grid-template-rows: ;
   font-style: bold;
   width: 50%;
 }
 .nav-img {
   display: block;
+  text-align: center;
+  
+  
   width: 80px;
   height: 80px;
   margin: auto;
+  
 }
 
 .burger div {
@@ -58,27 +68,37 @@ nav {
   height: 15 px;
 }
 
-.gallery-section {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 6% 2%;
+.gallery-grid-click {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: dense;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+    margin: 60px auto;
+    max-width: 800px;
+    
 }
 
-.gallery-grid {
-  margin: 20px 0 0 0;
-  padding: 0;
-  list-style: none;
+.gallery-grid{
+  
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: #e5e5e5;
   display: block;
-  text-align: center;
+  min-height: 200px;
   width: 100%;
 }
+
+
 
 .cart-row {
   margin: auto;
   padding: auto;
   padding-left: 30px;
   padding-right: 30px;
-  background-color: #49684c;
+  background-color: rgb(255, 255, 255);
+  color: rgb(2, 2, 39);
   font-family: "Poppins", sans-serif;
   justify-content: space-around;
   word-spacing: 500px;
@@ -87,7 +107,8 @@ nav {
 .cart-items {
   margin: auto;
   padding: auto;
-  background-color: #6b8e6e;
+  color: rgb(2, 2, 39);
+  background-color:rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
   justify-content: space-around;
   word-spacing: normal;
@@ -98,7 +119,7 @@ nav {
   padding: auto;
   font-family: "Poppins", sans-serif;
   font-size: large;
-  color: beige;
+  color: rgb(255, 255, 255);
   justify-content: space-around;
   word-spacing: normal;
 }
@@ -106,15 +127,15 @@ nav {
 .btn-purchase {
   padding: 0%;
   font-size: medium;
-  background-color: #5d7f61;
-  color: beige;
+  background-color: rgb(255, 255, 255);
+  color: rgb(2, 2, 39);
   font-family: "Poppins", sans-serif;
 }
 
 .cart-header {
   text-align: center;
-  background-color: #2d4030;
-  color: beige;
+  background-color: rgb(255, 255, 255);
+  color:rgb(2, 2, 39);
   padding-left: 5px;
   font-family: "Poppins", sans-serif;
 }
@@ -125,8 +146,8 @@ nav {
 }
 
 .shop-item-button {
-  color: #2d4030;
-  background-color: #6b8e6e;
+  color:rgb(2, 2, 39);
+  background-color:rgb(211, 219, 230);
 }
 .item-image {
   width: 150px;
@@ -134,14 +155,14 @@ nav {
 }
 
 .a1 {
-  color: #2d4030;
-  background-color: #6b8e6e;
+  color: rgb(2, 2, 39);
+  background-color: rgb(211, 219, 230);
 }
 
 .shop-item-info {
-  color: #f7ede2;
+  color: rgb(2, 2, 39);
   text-align: left;
-  background-color: beige;
+  background-color: rgb(211, 219, 230);
 }
 
 .item-info {
@@ -150,12 +171,12 @@ nav {
 }
 
 .v-header {
-  color: #f7ede2;
+  color: rgb(2, 2, 39);
   font-family: "Poppins", sans-serif;
 }
 
 .v-content {
-  color: yellow;
+  color:rgb(2, 2, 39);
 }
 
 .about-us{
@@ -163,11 +184,65 @@ nav {
   padding: auto;
   font-family: "Poppins", sans-serif;
   font-size: large;
-  color: beige;
+  background-color: rgb(255, 255, 255);
+  color: rgb(2, 2, 39);
   justify-content: space-around;
   word-spacing: normal;
 }
 
-.sus-img{
-    
+.sus-text{
+  margin: auto;
+  text-decoration: solid;
+  font-weight: bolder;
+  background-color:rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size:xx-large;
+  color: rgb(2, 2, 39);
+  text-align: center;
+  word-spacing: normal;
+  text-indent: 1em; 
+
+}
+
+.gallery-caption{
+  margin: auto;
+  text-decoration: solid;
+  font-family: "Poppins", sans-serif;
+  color: rgb(2, 2, 39);
+  word-spacing: normal;
+  
+}
+
+.sus-content{
+  margin: auto;
+  background-color:rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size:medium;
+  color: rgb(2, 2, 39);
+  text-align: center;
+  word-spacing: normal;
+  text-indent: 1em; 
+
+}
+
+.about-us{
+  margin: auto;
+  background-color:rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size:medium;
+  color: rgb(2, 2, 39);
+  text-align: center;
+  word-spacing: normal;
+  text-indent: 1em; 
+}
+
+.contact{
+  margin: auto;
+  background-color:rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  font-size:medium;
+  color: rgb(2, 2, 39);
+  text-align: center;
+  word-spacing: normal;
+  text-indent: 1em; 
 }

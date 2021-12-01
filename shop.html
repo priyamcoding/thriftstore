@@ -7,11 +7,12 @@
 <head>
 </head>
 
-<script src="shop.js">
+<script src="/shop.js">
 </script>
 <link rel="stylesheet" href="shop.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet"> 
 
 
 
@@ -34,9 +35,10 @@
             <a href="/index.html"><img width= 100% src="/logos/logo.png" alt="Logo image"></a>
             </div>
             <li><br><a href="cart.html">
-                <i class="fa-lg fa-shopping-cart"></i>
+                <i class="fa-lg fa-shopping-cart">Cart</i>
             </a>
             </li>
+            <li><br><a href="/contact.html">login</a></li>
         
         </ul>
     </nav>
@@ -45,13 +47,14 @@
     <!---gallery section-->
     <div class="gallery-section">
         <figure class="gallery-grid-click" class="gallery-grid">
-            <a href="#" target="_blank" rel="noopener" class="gallery-grid-image-link">
-                <img src="photos/img1.jpg" width="250x250" alt="white shirt - $40">
-            </a>
+                <img src="photos/whiteshirt.jpg" width="250x250" alt="white shirt - $40">
+            
             
             <figcaption class="gallery-caption">
                 <div class="gallery-caption">
-                    <p class="gallery-caption-content">white shirt - $40 </p>
+                    <p class="gallery-caption-content">white shirt - Rs 500 </p>
+                    <p>A classic white shirt. 100% cotton. 100% sustainably sourced. In perfect condition. Wear it casual or in a business setting. </p>
+                    <button class="shop-item-button" type="button">ADD TO CART</button>
                 </div>
             </figcaption>
         </div>
@@ -59,44 +62,56 @@
 
 
     <figure class="gallery-grid-click" class="gallery-grid">
-        <a href="#" target="_blank" rel="noopener" class="gallery-grid-image-link">
-            <img src="photos/img1.jpg"
+        <div class="gallery-grid-image-link">
+            <img src="photos/bluejeans.jpg"
                 width="250x250" alt="blue jeans - $50">
-        </a>
         </div>
+    
         <figcaption class="gallery-caption">
             <div class="gallery-caption">
-                <p class="gallery-caption-content">blue jeans - $50 </p>
+                <p class="gallery-caption-content">blue jeans - Rs 1200 </p>
+                <p>Your classic pair of blue jeans. Can’t live without a pair, get yours today. 100% cotton. Pre-loved. </p>
+                <button class="shop-item-button" type="button">ADD TO CART</button>
             </div>
         </figcaption>
     </figure>
 
     <figure class="gallery-grid-click" class="gallery-grid">
-        <a href="pages/bluejeans.html" target="_blank" rel="noopener" class="gallery-grid-image-link">
-            <img src="photos/img1.jpg" width="250x250" alt="yellow mules - $100">
-        </a>
+        <div class="gallery-grid-image-link">
+            <img src="photos/mules.jpg" width="250x250" alt="yellow mules - $100">
         </div>
         <figcaption class="gallery-caption">
             <div class="gallery-caption">
-                <p class="gallery-caption-content">yellow mules - $100 </p>
+                <p class="gallery-caption-content">yellow mules - Rs 750 </p>
+            
+                <p>
+                    A pair of classy yellow mules to add a pop of color. US size 8. UK size 10. 100% vintage recycled leather. Wear them anytime, anywhere. 
+                </p>
+                <button class="shop-item-button" type="button">ADD TO CART</button>
             </div>
         </figcaption>
     </figure>
 
     <figure class="gallery-grid-click" class="gallery-grid">
-        <a href="pages/whiteshirt.html" target="_blank" rel="noopener" class="gallery-grid-image-link">
-            <img src="photos/img1.jpg" width="250x250" alt="orange glasses - $50">
-        </a>
+        <div  class="gallery-grid-image-link">
+            <img src="photos/coat.jpg" width="250x250" alt="belted coat - $50">
+            
+        </div>
         
 
         <figcaption class="gallery-caption">
             <div class="gallery-caption">
-                <p class="gallery-caption-content">orange glasses - $50 </p>
-
+                <p class="gallery-caption-content">belted coat - Rs 3500 </p>
+                <p>Your ideal winter coat. Stay warm in this belted coat. 100% cashmere. </p>
+                <button class="shop-item-button" type="button">ADD TO CART</button>
             </div>
                 </figcaption>
             </div>
         </figure>
+       
+     
+
+        <script type="text/javascript" src="/shop.js"></script>
     </body>
 
 </html>
