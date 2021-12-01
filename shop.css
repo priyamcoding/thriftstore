@@ -42,6 +42,7 @@ nav {
   color: rgba(255, 255, 255, 0.774);
   text-decoration: underline;
   justify-content: space-around;
+  grid-template-rows: ;
   font-style: bold;
   width: 50%;
 }
@@ -155,4 +156,18 @@ nav {
 
 .v-content {
   color: yellow;
+}
+
+.about-us{
+  margin: auto;
+  padding: auto;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+  color: beige;
+  justify-content: space-around;
+  word-spacing: normal;
+}
+
+.sus-img{
+    
 }

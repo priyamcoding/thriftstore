@@ -40,3 +40,4 @@ function myFunction(){
     p.innerHTML = "Your item is "+localStorage.getItem('itemno_added');
     document.body.appendChild(p);
 }
+
