@@ -227,6 +227,10 @@ nav {
 
 .about-us{
   margin: auto;
+  margin-top: 1em;
+  margin-bottom:1em;
+  margin-left: 1em;
+  margin-right: 1em;
   background-color:rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
   font-size:medium;
@@ -246,3 +250,5 @@ nav {
   word-spacing: normal;
   text-indent: 1em; 
 }
+
+
